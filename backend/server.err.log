@@ -1,0 +1,31 @@
+MySQL connection fallback succeeded using user "root".
+Error: At least one active administrator account must remain in the system.
+    at createHttpError (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:9:17)
+    at ensureAdminSafety (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:161:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async updateAccountStatus (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:275:3)
+    at async C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\server.js:138:19 {
+  statusCode: 400
+}
+Error: Invalid email or password.
+    at createHttpError (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:9:17)
+    at authenticateUser (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:290:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\server.js:90:16 {
+  statusCode: 401
+}
+Error: At least one active administrator account must remain in the system.
+    at createHttpError (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:9:17)
+    at ensureAdminSafety (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:161:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async updateAccountStatus (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:275:3)
+    at async C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\server.js:138:19 {
+  statusCode: 400
+}
+Error: Invalid email or password.
+    at createHttpError (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:9:17)
+    at authenticateUser (C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\accountService.js:290:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\Nash\OneDrive\Documents\EDP ACT\backend\server.js:90:16 {
+  statusCode: 401
+}

@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luminaOuter" x1="181" y1="92" x2="397" y2="377" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2580FF"/>
+      <stop offset="1" stop-color="#1153E6"/>
+    </linearGradient>
+    <linearGradient id="luminaInner" x1="196" y1="177" x2="364" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D4DCEB"/>
+      <stop offset="1" stop-color="#7E94B8"/>
+    </linearGradient>
+    <linearGradient id="luminaLeft" x1="132" y1="133" x2="261" y2="395" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#123A97"/>
+      <stop offset="1" stop-color="#081B56"/>
+    </linearGradient>
+    <filter id="luminaShadow" x="126" y="385" width="260" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="6"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.101961 0 0 0 0 0.356863 0 0 0 0 1 0 0 0 0.22 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.9">
+    <path d="M76 204H136" stroke="url(#luminaInner)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="136" cy="204" r="24" fill="#1C73F0"/>
+    <path d="M54 273H136" stroke="url(#luminaOuter)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="136" cy="273" r="24" fill="#1C73F0"/>
+    <path d="M84 342H136" stroke="url(#luminaInner)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="136" cy="342" r="20" fill="#7E94B8"/>
+  </g>
+
+  <path d="M177 154C177 147.373 182.373 142 189 142H209C215.627 142 221 147.373 221 154V359L355 437C365.862 443.323 365.883 459.001 355.038 465.353L321.531 484.976C315.295 488.628 307.576 488.662 301.308 485.065L186.964 419.44C180.771 415.885 177 409.289 177 402.148V154Z" fill="url(#luminaLeft)"/>
+
+  <path d="M257.31 134.399C269.113 126.885 283.946 126.685 295.947 133.878L407.643 200.816C419.147 207.711 426.178 220.138 426.178 233.549V375.438C426.178 388.673 419.331 400.964 408.078 407.932L356.65 439.774C349.084 444.459 339.256 439.016 339.256 430.117V419.371C339.256 414.924 341.57 410.797 345.361 408.477L382.242 385.891C388.209 382.237 391.841 375.733 391.841 368.736V242.09C391.841 235.093 388.209 228.589 382.242 224.935L281.884 163.468C275.779 159.73 268.096 159.813 262.073 163.681L221 190.068V154.697C221 146.438 225.147 138.733 232.039 134.347L257.31 134.399Z" fill="url(#luminaOuter)"/>
+
+  <path d="M254.707 183.332C261.162 179.203 269.433 179.063 276.022 182.972L353.232 228.78C359.421 232.453 363.216 239.104 363.216 246.3V336.357C363.216 343.536 359.439 350.174 353.273 353.854L275.957 400.011C269.401 403.925 261.154 403.814 254.705 399.725L177.842 350.98C171.977 347.261 168.424 340.799 168.424 333.854V248.977C168.424 242.013 171.997 235.537 177.89 231.824L254.707 183.332Z" fill="white"/>
+
+  <path d="M194.813 246.961L255.516 283.715V374.389L205.465 344.621C198.885 340.707 194.842 333.615 194.842 325.959L194.813 246.961Z" fill="url(#luminaInner)"/>
+  <path d="M318.954 373.345V283.707L363.156 257.418V326.184C363.156 333.707 359.255 340.689 352.863 344.651L318.954 373.345Z" fill="url(#luminaInner)"/>
+  <path d="M195.383 237.327L254.617 202.271C261.164 198.396 269.307 198.454 275.798 202.42L335.575 238.941L278.818 273.221C270.831 278.044 260.816 278.04 252.833 273.211L195.383 237.327Z" fill="#C7D1E6"/>
+  <path d="M274.899 281.243H294.676V324.473L274.899 339.876V281.243Z" fill="white"/>
+
+  <g filter="url(#luminaShadow)">
+    <ellipse cx="256" cy="414" rx="90" ry="10" fill="#B3CBFF"/>
+  </g>
+</svg>
