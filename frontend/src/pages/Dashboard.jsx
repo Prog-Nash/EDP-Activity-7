@@ -46,7 +46,7 @@ export default function Dashboard() {
             <Search className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400" />
             <input 
               type="text" 
-              placeholder="Search..." 
+              placeholder="Search dashboard..." 
               className="bg-slate-900/70 border border-slate-800 rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-blue-500/50 text-sm w-64 backdrop-blur-sm transition-all text-white"
             />
           </div>
